@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>政务中心 - 天下第一泉</title>
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1"/>
+    <!--导入boot的4个文件，导入顺序是固定的 -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/nav.css"/>
+    <link rel="stylesheet" href="css/footer.css"/>
+    <link rel="stylesheet" href="css/government affairs.css"/>
+</head>
+<body>
+<!-- 顶部导航栏 -->
+<div class="top_bg">
+    <div class="logo">
+        <a href="index.html">
+            <img src="images/logo.png" alt=""/>
+        </a>
+    </div>
+    <div class="lau_bg">
+        <label class="label">语言选择:</label>
+        <!--
+            label 元素不会向用户呈现任何特殊效果。不过，它为鼠标用户改进了可用性。
+            如果您在 label 元素内点击文本，就会触发此控件。就是说，当用户选择该标
+            签时，浏览器就会自动将焦点转到和标签相关的表单控件上。
+            <label> 标签的 for 属性应当与相关元素的 id 属性相同。
+        -->
+        <select class="select">
+            <option>请选择</option>
+            <option value="">中文</option>
+            <option value="">English</option>
+            <option value="">한국어</option>
+            <option value="">日语</option>
+        </select>
+    </div>
+    <ul class="nav_ul">
+        <li>
+            <a href="index.html">首页</a>
+        </li>
+        <li>
+            <a href="survey.html">概况</a>
+            <dl class="nav_sec">
+                <dd>
+                    <a href="javascript:;">景区简介</a>
+                </dd>
+                <dd>
+                    <a href="javascript:;">景区资讯</a>
+                </dd>
+                <dd>
+                    <a href="javascript:;">景区导资</a>
+                </dd>
+                <dd>
+                    <a href="javascript:;">视频中心</a>
+                </dd>
+            </dl>
+            <div class="nav_sec_bg"></div>
+        </li>
+        <li>
+            <a href="activity.html">活动</a>
+            <dl class="nav_sec">
+                <dd>
+                    <a href="javascript:;">明湖春节文化届会</a>
+                </dd>
+                <dd>
+                    <a href="javascript:;">趵突泉迎春花灯会</a>
+                </dd>
+                <dd>
+                    <a href="javascript:;">龙舟赛</a>
+                </dd>
+                <dd>
+                    <a href="javascript:;">趵突泉金秋菊展</a>
+                </dd>
+                <dd>
+                    <a href="javascript:;">曲山艺海</a>
+                </dd>
+                <dd>
+                    <a href="javascript:;">民俗展演</a>
+                </dd>
+                <dd>
+                    <a href="javascript:;">书画展览</a>
+                </dd>
+                <dd>
+                    <a href="javascript:;">荷花艺术节</a>
+                </dd>
+            </dl>
+            <div class="nav_sec_bg"></div>
+        </li>
+        <li>
+            <a href="survey.html">畅游</a>
+            <dl class="nav_sec">
+                <dd>
+                    <a href="javascript:;">经典线路</a>
+                </dd>
+                <dd>
+                    <a href="javascript:;">游记攻略</a>
+                </dd>
+                <dd>
+                    <a href="javascript:;">泉水推荐</a>
+                </dd>
+            </dl>
+            <div class="nav_sec_bg"></div>
+        </li>
+        <li>
+            <a href="culture.html">文化</a>
+            <dl class="nav_sec">
+                <dd>
+                    <a href="javascript:;">特别专题</a>
+                </dd>
+                <dd>
+                    <a href="javascript:;">掌故传说</a>
+                </dd>
+                <dd>
+                    <a href="javascript:;">楹联碑刻</a>
+                </dd>
+            </dl>
+            <div class="nav_sec_bg"></div>
+        </li>
+        <li>
+            <a href="government affairs.html">政务</a>
+            <dl class="nav_sec">
+                <dd>
+                    <a href="javascript:;">新闻中心</a>
+                </dd>
+                <dd>
+                    <a href="javascript:;">公示公告</a>
+                </dd>
+                <dd>
+                    <a href="javascript:;">党建工作</a>
+                </dd>
+                <dd>
+                    <a href="javascript:;">政策法规</a>
+                </dd>
+                <dd>
+                    <a href="javascript:;">培训学习</a>
+                </dd>
+            </dl>
+            <div class="nav_sec_bg"></div>
+        </li>
+        <li>
+            <a href="javascript:;">在线留言</a>
+        </li>
+        <li>
+            <a href="javascript:;">联系我们</a>
+        </li>
+    </ul>
+</div>
+<div class="banner_n">
+    <div class="zw_ab">
+        <div class="zw_news">
+            <div class="zw_news_tit">最新资讯：</div>
+            <ul class="zw_news_list" id="marqueebox" style="margin-top: -34px;">
+                <li class="up_li"><span>2019-09-06</span><a href="javascript:;">济南天下第一泉风景区服务中心鹊华居、皇华轩、烟雨堂一楼、西南门内东侧房屋及西南门内西侧房屋租赁项目重新竞价</a></li>
+                <li class="up_li"><span>2019-08-27</span><a href="javascript:;">济南天下第一泉风景区服务中心鹊华居、皇华轩、烟雨堂一楼、西南门内东侧房屋及西南门内西侧房屋租赁项目</a></li>
+                <li class="up_li"><span>2019-08-13</span><a href="javascript:;">济南天下第一泉风景区服务中心南门桥南侧房屋租赁项目竞价结果公示</a></li>
+                <li class="up_li"><span>2019-08-10</span><a href="javascript:;">济南天下第一泉风景区邀请省委党校教授讲专题党课</a></li>
+                <li class="up_li"><span>2019-08-10</span><a href="javascript:;">关于趵突泉、五龙潭景区停止夜间开放的通告 </a></li>
+                <li class="up_li"><span>2019-09-06</span><a href="javascript:;">济南天下第一泉风景区服务中心鹊华居、皇华轩、烟雨堂一楼、西南门内东侧房屋及西南门内西侧房屋租赁项目重新竞价</a></li>
+                <li class="up_li"><span>2019-08-27</span><a href="javascript:;">济南天下第一泉风景区服务中心鹊华居、皇华轩、烟雨堂一楼、西南门内东侧房屋及西南门内西侧房屋租赁项目</a></li>
+                <li class="up_li"><span>2019-08-13</span><a href="javascript:;">济南天下第一泉风景区服务中心南门桥南侧房屋租赁项目竞价结果公示</a></li>
+                <li class="up_li"><span>2019-08-10</span><a href="javascript:;">济南天下第一泉风景区邀请省委党校教授讲专题党课</a></li>
+                <li class="up_li"><span>2019-08-10</span><a href="javascript:;">关于趵突泉、五龙潭景区停止夜间开放的通告 </a></li>
+            </ul>
+        </div>
+    </div>
+    <img src="images/20180717083321600.jpg" width="100%" height="auto">
+</div>
+<script src="js/government affairs.js"></script>
+
+<!--主题内容-->
+<div class="zw_width">
+    <div class="zw_width_con">
+        <div class="scr_bg">
+            <!-- 轮播图 -->
+            <script type="text/javascript" src="http://www.txdyq.cn/statics/js/web_js/scroll.js"></script>
+            <div class="scr_img">
+                <ul id="img" style="width: 2000px; left: 0">
+                    <li>
+                        <div class="info">
+                            <a href="javascrpt:;" title="泉水浴场改造竣工，2月2日起对外开放">泉水浴场改造竣工，2月2日起对外开放</a>
+                        </div>
+                        <a href="javascrpt:;">
+                            <img src="images/lun1.jpg" width="400" height="300"></a>
+                    </li>
+                    <li>
+                        <div class="info">
+                            <a href="javascrpt:;" title="大明湖藕神祠彩绘壁画完工整体开放">大明湖藕神祠彩绘壁画完工整体开放</a>
+                        </div>
+                        <a href="javascrpt:;">
+                            <img src="images/lun2.jpg" width="400" height="300">
+                        </a>
+                    </li>
+                    <li>
+                        <div class="info">
+                            <a href="javascrpt:;" title="局领导到天下第一泉风景区调研指导工作">局领导到天下第一泉风景区调研指...</a>
+                        </div>
+                        <a href="javascrpt:;">
+                            <img src="images/lun3.jpg" width="400" height="300">
+                        </a>
+                    </li>
+                    <li>
+                        <div class="info">
+                            <a href="javascrpt:;" title="鹊华桥头观烟雨">鹊华桥头观烟雨</a>
+                        </div>
+                        <a href="javascrpt:;">
+                            <img src="images/lun4.jpg" width="400" height="300">
+                        </a>
+                    </li>
+                    <li>
+                        <div class="info">
+                            <a href="javascrpt:;" title="真有一段荷花仙子的故事曾流传">真有一段荷花仙子的故事曾流传</a>
+                        </div>
+                        <a href="javascrpt:;">
+                            <img src="images/lun5.jpg" width="400" height="300">
+                        </a>
+                    </li>
+                </ul>
+                <ul id="num">
+                    <li class="hover">1</li>
+                    <li class="">2</li>
+                    <li class="">3</li>
+                    <li class="">4</li>
+                    <li class="">5</li>
+                </ul>
+            </div>
+            <script type="text/javascript">
+                var img = document.getElementById("img");
+                var num = document.getElementById("num");
+                var ali = img.getElementsByTagName("li");
+                var oli = num.getElementsByTagName("li");
+                var time = null
+                zzscing = document.getElementById("scr_img");
+                img.style.width = ali.length * 400 + "px", inow = 0;
+                for (var i = 0; i < oli.length; i++) {
+                    oli[i].index = i
+                    oli[i].onmouseover = function() {
+                        inow = this.index;
+                        tab();
+                        window.clearInterval(time)
+                    }
+                    oli[i].onmouseout = function() {
+                        time = window.setInterval(autoPlay, 4000)
+                    }
+                }
+
+                function tab() {
+                    for (var i = 0; i < oli.length; i++) {
+                        oli[i].className = ""
+                    }
+                    oli[inow].className = "hover"
+                    startMove(img, {
+                        left: -inow * 400
+                    }, 'buffer')
+                }
+
+                function autoPlay() {
+                    inow++;
+                    if (inow >= ali.length) {
+                        inow = 0
+                    }
+                    tab();
+                }
+                time = window.setInterval(autoPlay, 4000)
+            </script>
+        </div>
+        <div class="zw_news_zx">
+            <div class="zw_tit_bg">
+                <span>
+                    <a href="javascript:;">查看更多</a>
+                </span>
+                <div class="zw_tit">新闻中心</div>
+            </div>
+            <ul class="zw_ul01">
+                <li>
+                    <a href="javascript:;" title="济南天下第一泉景区服务中心组织开展“精准扶贫慈心一日捐”活动">济南天下第一泉景区服务中心组织开展“精准扶贫慈心...</a>
+                </li>
+                <li>
+                    <a href="javascript:;" title="市园林和林业绿化局到天下第一泉检查调研工作">市园林和林业绿化局到天下第一泉检查调研工作</a>
+                </li>
+                <li>
+                    <a href="javascript:;" title="天下第一泉风景区开展“合法权益我知晓——女职工权益保护知识答卷”活动">天下第一泉风景区开展“合法权益我知晓——女职工权...</a>
+                </li>
+                <li>
+                    <a href="javascript:;" title="《济南市文明行为促进条例》">《济南市文明行为促进条例》</a>
+                </li>
+                <li>
+                    <a href="javascript:;" title="天下第一泉开展困难职工座谈走访慰问活动">天下第一泉开展困难职工座谈走访慰问活动</a>
+                </li>
+                <li>
+                    <a href="javascript:;" title="环城园区召开安全生产工作会议">环城园区召开安全生产工作会议</a>
+                </li>
+                <li>
+                    <a href="javascript:;" title="济南天下第一泉风景区管理中心召开2019年安全生产暨党风廉政建设工作会议">济南天下第一泉风景区管理中心召开2019年安全生产暨...</a>
+                </li>
+            </ul>
+        </div>
+        <div class="zw_news_gg">
+            <div class="zw_tit_bg">
+                <span><a href="javascript:;">查看更多</a></span>
+                <div class="zw_tit">公示公告</div>
+            </div>
+            <ul class="zw_ul02">
+                <li>
+                    <a href="javascript:;" title="济南天下第一泉风景区服务中心鹊华居、皇华轩、烟雨堂一楼、西南门内东侧房屋及西南门内西侧房屋租赁项目重新竞价">济南天下第一泉风景区服务中心鹊华居、皇...</a>
+                </li>
+                <li>
+                    <a href="javascript:;" title="济南天下第一泉风景区服务中心鹊华居、皇华轩、烟雨堂一楼、西南门内东侧房屋及西南门内西侧房屋租赁项目">济南天下第一泉风景区服务中心鹊华居、皇...</a>
+                </li>
+                <li>
+                    <a href="javascript:;" title="济南天下第一泉风景区服务中心南门桥南侧房屋租赁项目竞价结果公示">济南天下第一泉风景区服务中心南门桥南侧...</a>
+                </li>
+                <li>
+                    <a href="javascript:;" title="关于趵突泉、五龙潭景区停止夜间开放的通告 ">关于趵突泉、五龙潭景区停止夜间开放的通告 </a>
+                </li>
+                <li>
+                    <a href="javascript:;" title="济南天下第一泉风景区服务中心秋柳苑、铁公祠西房屋（雅吟居）及明湖楼房屋租赁项目重新竞价">济南天下第一泉风景区服务中心秋柳苑、铁...</a>
+                </li>
+                <li>
+                    <a href="javascript:;" title="济南天下第一泉风景区服务中心秋柳苑、铁公祠西房屋（雅吟居）及明湖楼房屋租赁项目重新竞价公告">济南天下第一泉风景区服务中心秋柳苑、铁...</a>
+                </li>
+                <li>
+                    <a href="javascript:;" title="黑虎泉取水点、直饮点将暂停开放">黑虎泉取水点、直饮点将暂停开放</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="zw_tl"><img src="images/zw_tl.jpg"></div>
+    <div class="zw_width_con">
+        <div class="zw_news_m">
+            <div class="zw_tit_bg">
+                <span><a href="javacript:;">查看更多</a></span>
+                <div class="zw_tit">党建工作</div>
+            </div>
+            <ul class="zw_ul03">
+                <li>
+                    <a href="javacript:;" title="济南天下第一泉风景区邀请省委党校教授讲专题党课">济南天下第一泉风景区邀请省委党校教授讲专...</a>
+                </li>
+                <li>
+                    <a href="javacript:;" title="济南天下第一泉风景区召开2019年工作推进会">济南天下第一泉风景区召开2019年工作推进会</a>
+                </li>
+                <li>
+                    <a href="javacript:;" title="济南天下第一泉风景区服务中心党委班子开展广泛征求意见工作">济南天下第一泉风景区服务中心党委班子开展...</a>
+                </li>
+                <li>
+                    <a href="javacript:;" title="济南天下第一泉风景区组织开展老干部、老党员“谈初心”活动">济南天下第一泉风景区组织开展老干部、老党...</a>
+                </li>
+                <li>
+                    <a href="javacript:;" title="济南天下第一泉风景区党委扎实开展党组织党员到社区“双报到”工作">济南天下第一泉风景区党委扎实开展党组织党...</a>
+                </li>
+                <li>
+                    <a href="javacript:;" title="济南天下第一泉风景区赴大峰山、莱芜党性教育基地开展主题党日活动">济南天下第一泉风景区赴大峰山、莱芜党性教...</a>
+                </li>
+                <li>
+                    <a href="javacript:;" title="市直机关“倡导健康理念，实施关爱行动”倡议书">市直机关“倡导健康理念，实施关爱行动”倡议书</a>
+                </li>
+            </ul>
+        </div>
+        <div class="zw_news_m">
+            <div class="zw_tit_bg">
+                <span><a href="javacript:;javacript:;">查看更多</a></span>
+                <div class="zw_tit">政策法规</div>
+            </div>
+            <ul class="zw_ul03">
+                <li>
+                    <a href="javacript:;" title="济南市城市园林绿化局济南市公安局济南市城市管理局(城市管理行政执法局)济南市旅游发展委员会关于大明湖风景名胜区实行免费开放的通告">济南市城市园林绿化局济南市公安局济南市城...</a>
+                </li>
+                <li>
+                    <a href="javacript:;" title="济南市泉水浴场管理规定">济南市泉水浴场管理规定</a>
+                </li>
+                <li>
+                    <a href="javacript:;" title="济南市人民政府关于加强济南天下第一泉风景区管理的通告">济南市人民政府关于加强济南天下第一泉风景...</a>
+                </li>
+                <li>
+                    <a href="javacript:;" title="晨晚练文明健身活动须知">晨晚练文明健身活动须知</a>
+                </li>
+                <li>
+                    <a href="javacript:;" title="山东省风景名胜区条例">山东省风景名胜区条例</a>
+                </li>
+            </ul>
+        </div>
+        <div class="zw_news_m" style=" margin-right:0px;">
+            <div class="zw_tit_bg">
+                <span><a href="javacript:;">查看更多</a></span>
+                <div class="zw_tit">培训学习</div>
+            </div>
+            <ul class="zw_ul03">
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="zw_left">
+    <img src="images/zw_left.jpg" width="200" height="auto">
+</div>
+
+<!-- 底部 -->
+<div class="foot_bg wow fadeInDown" style="visibility: visible; animation-name: fadeInDown;">
+    <ul class="foot_nav">
+        <li><a href="index.html">首页</a></li>
+        <li>|<a href="javascript:;">概况</a></li>
+        <li>|<a href="javascript:;">活动</a></li>
+        <li>|<a href="javascript:;">畅游</a></li>
+        <li>|<a href="javascript:;">文化</a></li>
+        <li>|<a href="javascript:;">政务</a></li>
+        <li>|<a href="javascript:;">留言</a></li>
+        <li>|<a href="javascript:;">联系</a></li>
+        <div class="back_top">
+            <a href="javascript:scroll(0,0)">返回顶部</a>
+        </div>
+    </ul>
+    <div class="flink_bg">
+        <a href="javascript:;" target="_blank">千佛山网站入口</a>
+    </div>
+    <div class="foot_info">Copyrights 济南天下第一泉风景区管理中心 ALL Rights Reserved<br>
+        网站备案/许可证号：鲁ICP备09014574号-1
+    </div>
+    <div class="foot_img">
+        <img src="images/foot_img.png">
+    </div>
+</div>
+</body>
+</html>

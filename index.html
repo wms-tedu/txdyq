@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>天下第一泉</title>
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1"/>
+    <!--导入boot的4个文件，导入顺序是固定的 -->
+    <!--<link rel="stylesheet" href="css/bootstrap.css">-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!--<link rel="stylesheet" href="css/index0.css"/>-->
+    <link rel="stylesheet" href="css/index.css"/>
+</head>
+<body>
+    <div id="slider">
+        <div class="page">
+            <!-- 顶部导航栏 -->
+            <div class="top_bg">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/logo.png" alt=""/>
+                    </a>
+                </div>
+                <div class="lau_bg">
+                    <label class="label">语言选择:</label>
+                    <!--
+                        label 元素不会向用户呈现任何特殊效果。不过，它为鼠标用户改进了可用性。
+                        如果您在 label 元素内点击文本，就会触发此控件。就是说，当用户选择该标
+                        签时，浏览器就会自动将焦点转到和标签相关的表单控件上。
+                        <label> 标签的 for 属性应当与相关元素的 id 属性相同。
+                    -->
+                    <select class="select">
+                        <option>请选择</option>
+                        <option value="">中文</option>
+                        <option value="">English</option>
+                        <option value="">한국어</option>
+                        <option value="">日语</option>
+                    </select>
+                </div>
+                <ul class="nav_ul">
+                    <li>
+                        <a href="index.html">首页</a>
+                    </li>
+                    <li>
+                        <a href="survey.html">概况</a>
+                        <dl class="nav_sec">
+                            <dd>
+                                <a href="javascript:;">景区简介</a>
+                            </dd>
+                            <dd>
+                                <a href="javascript:;">景区资讯</a>
+                            </dd>
+                            <dd>
+                                <a href="javascript:;">景区导资</a>
+                            </dd>
+                            <dd>
+                                <a href="javascript:;">视频中心</a>
+                            </dd>
+                        </dl>
+                        <div class="nav_sec_bg"></div>
+                    </li>
+                    <li>
+                        <a href="activity.html">活动</a>
+                        <dl class="nav_sec">
+                            <dd>
+                                <a href="javascript:;">明湖春节文化届会</a>
+                            </dd>
+                            <dd>
+                                <a href="javascript:;">趵突泉迎春花灯会</a>
+                            </dd>
+                            <dd>
+                                <a href="javascript:;">龙舟赛</a>
+                            </dd>
+                            <dd>
+                                <a href="javascript:;">趵突泉金秋菊展</a>
+                            </dd>
+                            <dd>
+                                <a href="javascript:;">曲山艺海</a>
+                            </dd>
+                            <dd>
+                                <a href="javascript:;">民俗展演</a>
+                            </dd>
+                            <dd>
+                                <a href="javascript:;">书画展览</a>
+                            </dd>
+                            <dd>
+                                <a href="javascript:;">荷花艺术节</a>
+                            </dd>
+                        </dl>
+                        <div class="nav_sec_bg"></div>
+                    </li>
+                    <li>
+                        <a href="survey.html">畅游</a>
+                        <dl class="nav_sec">
+                            <dd>
+                                <a href="javascript:;">经典线路</a>
+                            </dd>
+                            <dd>
+                                <a href="javascript:;">游记攻略</a>
+                            </dd>
+                            <dd>
+                                <a href="javascript:;">泉水推荐</a>
+                            </dd>
+                        </dl>
+                        <div class="nav_sec_bg"></div>
+                    </li>
+                    <li>
+                        <a href="culture.html">文化</a>
+                        <dl class="nav_sec">
+                            <dd>
+                                <a href="javascript:;">特别专题</a>
+                            </dd>
+                            <dd>
+                                <a href="javascript:;">掌故传说</a>
+                            </dd>
+                            <dd>
+                                <a href="javascript:;">楹联碑刻</a>
+                            </dd>
+                        </dl>
+                        <div class="nav_sec_bg"></div>
+                    </li>
+                    <li>
+                        <a href="government affairs.html">政务</a>
+                        <dl class="nav_sec">
+                            <dd>
+                                <a href="javascript:;">新闻中心</a>
+                            </dd>
+                            <dd>
+                                <a href="javascript:;">公示公告</a>
+                            </dd>
+                            <dd>
+                                <a href="javascript:;">党建工作</a>
+                            </dd>
+                            <dd>
+                                <a href="javascript:;">政策法规</a>
+                            </dd>
+                            <dd>
+                                <a href="javascript:;">培训学习</a>
+                            </dd>
+                        </dl>
+                        <div class="nav_sec_bg"></div>
+                    </li>
+                    <li>
+                        <a href="Online Message.html">在线留言</a>
+                    </li>
+                    <li>
+                        <a href="Contact Us.html">联系我们</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="container">
+                <div class="focus">
+                    <div>
+                        <ul>
+                            <li class="" style="transform: scale(1, 1); opacity: 0; z-index: -1;">
+                                <a href="javascript;" title="天下第一泉全景" style="background:url('images/D1.jpg') no-repeat center;background-size:auto 100%;"></a>
+                            </li>
+                            <li>
+                                <a href="javascript;" title="济南市第33届荷花艺术节7月15在大明湖畔正式启幕" style="background:url('images/D2.jpg') no-repeat center;background-size:auto 100%;"></a>
+                            </li>
+                            <li class="" style="transform: scale(1, 1); opacity: 0; z-index: -1;">
+                                <a href="javascript;" title="一水绿 一湖蓝" style="background:url('images/D3.jpg') no-repeat center;background-size:auto 100%;"></a>
+                            </li>
+                            <li class="" style="transform: scale(1, 1); opacity: 0; z-index: -1;">
+                                <a href="javascript;" title="春光明媚" style="background:url('images/D4.jpg') no-repeat center;background-size:auto 100%;"></a>
+                            </li>
+                            <li style="transform: scale(1.5, 1.5); opacity: 0; z-index: 0; transition: opacity 1000ms cubic-bezier(0.5, 0, 0.2, 1), transform 1000ms cubic-bezier(0.5, 0, 0.2, 1);" class="">
+                                <a href="javascript;" title="五一蔷薇季" style="background:url('images/D5.jpg') no-repeat center;background-size:auto 100%;"></a>
+                            </li>
+                        </ul>
+                        <div class="nav">
+                            <i class="now"></i>
+                            <i></i>
+                            <i></i>
+                            <i></i>
+                            <i></i>
+                        </div>
+                    </div>
+                    <div class="prev"><a href="javascript:;"></a></div>
+                    <div class="next"><a href="javascript:;"></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="page_about">
+            <div class="iscr_tit wow fadeInUp animated" data-wow-duration="1s" data-wow-delay="0.5s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: fadeInUp;">
+                <a href="javascript:;">
+                    <img src="images/tit01.png" width="100%" height="auto">
+                </a>
+            </div>
+            <div class="page_ab_con">
+                <ul class="page_about_ul">
+                    <li class="wow fadeInUp animated" data-duration=".5s" data-delay="0.7s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.7s; animation-name: fadeInUp;">
+                        <div class="img">
+                            <a href="javascript:;">
+                                <img src="images/img_01.jpg" width="100%" height="auto">
+                            </a>
+                        </div>
+                    </li>
+                    <li class="wow fadeInUp animated" data-duration=".5s" data-delay="0.9s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.9s; animation-name: fadeInUp;">
+                        <div class="img">
+                            <a href="javascript:;">
+                                <img src="images/img_02.jpg" width="100%" height="auto">
+                            </a>
+                        </div>
+                    </li>
+                    <li class="wow fadeInUp animated" data-duration=".5s" data-delay="1.1s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 1.1s; animation-name: fadeInUp;">
+                        <div class="img">
+                            <a href="javascript:;">
+                                <img src="images/img_03.jpg" width="100%" height="auto">
+                            </a>
+                        </div>
+                    </li>
+                    <li class="wow fadeInUp animated" data-duration=".5s" data-delay="1.3s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 1.1s; animation-name: fadeInUp;">
+                        <div class="img">
+                            <a href="javascript:;">
+                                <img src="images/img_04.jpg" width="100%" height="auto">
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="page_news">
+            <div class="page_news_bg">
+                <div class="iscr_tit wow fadeInUp animated" data-wow-duration="1s" data-wow-delay="0.5s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: fadeInUp;">
+                    <a href="javascript:;">
+                        <img src="images/tit02.png" width="100%" height="auto">
+                    </a>
+                </div>
+            </div>
+            <div class="page_ab_con">
+                <div class="page_news_con">
+                    <div class="page_news_l wow fadeInLeft animated" data-wow-duration="0.5" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInLeft;">
+                        <div class="page_news_sp wow fadeInLeft animated" data-wow-duration="0.5" data-wow-delay="1s" style="visibility: visible; animation-delay: 1s; animation-name: fadeInLeft;">
+                            <a href="javascript:void(0)" onclick="document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">
+                                <img src="images/page_video.jpg" width="100%" height="auto">
+                            </a>
+                        </div>
+                        <div class="page_sp_bg wow fadeInLeft animated" data-wow-duration="0.5" data-wow-delay="1.2s" style="visibility: visible; animation-delay: 1.2s; animation-name: fadeInLeft;">
+                            <div class="page_sp_tit">
+                                <span>
+                                    <a href="javascript">查看更多</a>
+                                </span>
+                                视频中心
+                            </div>
+                            <ul class="page_sp_ul">
+                                <li>
+                                    <div class="tit">
+                                        <a href="javascript:;" title="天下第一泉景区导览视频">天下第一泉景区导览视频</a>
+                                    </div>
+                                    <p></p>
+                                </li>
+                                <li>
+                                    <div class="tit">
+                                        <a href="javascript:;" title="第四十届趵突泉迎春花灯会开灯仪式">第四十届趵突泉迎春花灯会...</a>
+                                    </div>
+                                    <p></p>
+                                </li>
+                                <li>
+                                    <div class="tit">
+                                        <a href="javascript:;" title="明湖迎新春 邀您观水仙">明湖迎新春 邀您观水仙</a>
+                                    </div>
+                                    <p></p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="page_news_r wow fadeInRight animated" data-wow-duration="0.5" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInRight;">
+                        <div class="page_dt_con">
+                            <div class="page_dt_tit">
+                                <span>
+                                    <a href="">查看更多</a>
+                                </span>
+                                景区资讯
+                            </div>
+                            <div class="page_dt_pos wow fadeInRight animated" data-wow-duration="0.5" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInRight;">
+                                <div class="img">
+                                    <a href="javascript:;">
+                                        <img src="images/20190513110759127.jpg" width="100%" height="auto">
+                                    </a>
+                                </div>
+                                <div class="tit">
+                                    <a href="javascript:;"><b>·&nbsp;</b>民俗文化月系列活动之葫芦...</a>
+                                </div>
+                            </div>
+                            <ul class="page_dt_ul">
+                                <li class="wow fadeInRight animated">
+                                    <a href="javascript:;" title="济南天下第一泉风景区服务中心鹊华居、皇华轩、烟雨堂一楼、西南门内东侧房屋及西南门内西侧房屋租赁项目">
+                                        <b>·&nbsp;</b>济南天下第一泉风景区服务中心鹊华居、...
+                                    </a>
+                                </li>
+                                <!--<li class="fadeInRight animated" data-wow-duration="0.5" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInRight;">-->
+                                <li class="wow fadeInRight animated">
+                                    <a href="javascript:;" title="第八届五龙潭泼水节开幕啦">
+                                        <b>·&nbsp;</b>第八届五龙潭泼水节开幕啦
+                                    </a>
+                                </li>
+                                <!--<li class="fadeInRight animated" data-wow-duration="0.5" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInRight;">-->
+                                <li class="wow fadeInRight animated">
+                                    <a href="javascript:;" title="央视报道济南打造“夜经济” 释放消费新热点">
+                                        <b>·&nbsp;</b>央视报道济南打造“夜经济” 释放消费...</a>
+                                </li>
+                                <!--<li class="fadeInRight animated" data-wow-duration="0.5" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInRight;">-->
+                                <li class="wow fadeInRight animated">
+                                    <a href="javascript:;" title="大明湖园区开展预防青少年溺水宣传教育活动">
+                                        <b>·&nbsp;</b>大明湖园区开展预防青少年溺水宣传教育活动
+                                    </a>
+                                </li>
+                                <!--<li class="fadeInRight animated" data-wow-duration="0.5" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInRight;">-->
+                                <li class="wow fadeInRight animated">
+                                    <a href="javascript:;" title="济南市第33届荷花艺术节7月15在大明湖畔正式启幕">
+                                        <b>·&nbsp;</b>济南市第33届荷花艺术节7月15在大明湖畔...
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="light" class="white_content">
+                <embed src="http://player.youku.com/player.php/sid/XOTA2MTU2Nzk2/v.swf" allowfullscreen="true" quality="high" width="100%" height="100%" align="middle" allowscriptaccess="always" type="application/x-shockwave-flash">
+            </div>
+            <a href="javascript:;">
+                <div id="fade" class="black_overlay"></div>
+            </a>
+            <div class="ihr"></div>
+        </div>
+        <div class="page2" style="height: 605px; display: block; top: 0px;">
+            <div class="page_cy_bg">
+                <div class="iscr_tit wow fadeInUp animated" data-wow-duration="1s" data-wow-delay="0.5s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: fadeInUp;">
+                    <a href="javascript:;">
+                        <img src="images/tit03.png" width="100%" height="auto">
+                    </a>
+                </div>
+            </div>
+            <div class="page_cy_con">
+                <ul class="page_cy_ul">
+                    <li class="wow fadeInRight animated" data-wow-duration="1s" data-wow-delay="0.7s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.7s; animation-name: fadeInRight;">
+                        <div class="img">
+                            <a href="javascript:;" title="大明湖盛景 || 你还没来留影？戳我看大明湖畔的蔷薇">
+                                <img src="images/20190508042019898.jpg" width="100%" height="auto">
+                            </a>
+                        </div>
+                        <div class="tit">
+                            <a href="javascript:;" title="大明湖盛景 || 你还没来留影？戳我看大明湖畔的蔷薇">大明湖盛景 || 你还没...</a>
+                        </div>
+                        <p>暮春初夏好时节赏花去哪里？我带上你你带上相机~一起来大明湖啊！你...</p>
+                        <div class="more">
+                            <a href="javascript:;">查看更多&gt;&gt;</a>
+                        </div>
+                    </li>
+                    <li class="wow fadeInRight animated" data-wow-duration="1s" data-wow-delay="0.9s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.9s; animation-name: fadeInRight;">
+                        <div class="img">
+                            <a href="javascript:;" title="蔷薇花开 | 5月最适合拍照的浪漫背景墙！">
+                                <img src="images/20190508040516164.jpg" width="100%" height="auto">
+                            </a>
+                        </div>
+                        <div class="tit">
+                            <a href="javascript:;" title="蔷薇花开 | 5月最适合拍照的浪漫背景墙！">蔷薇花开 | 5月最适合...</a>
+                        </div>
+                        <p>一转眼，繁花已悄然入夏蔷薇花单株开放时并不起眼多株排列就会成为...</p>
+                        <div class="more">
+                            <a href="javascript:;">查看更多&gt;&gt;</a>
+                        </div>
+                    </li>
+                    <li class="wow fadeInRight animated" data-wow-duration="1s" data-wow-delay="1.1s" style="visibility: visible; animation-duration: 1s; animation-delay: 1.1s; animation-name: fadeInRight;">
+                        <div class="img">
+                            <a href="javascript:;" title="电视剧带火的取景地！大明湖绝对榜上有名">
+                                <img src="images/20190508035855794.jpg" width="100%" height="auto">
+                            </a>
+                        </div>
+                        <div class="tit">
+                            <a href="javascript:;" title="电视剧带火的取景地！大明湖绝对榜上有名">电视剧带火的取景地！大...</a>
+                        </div>
+                        <p>山泉湖河城，钟天地之灵秀孕育出济南这个北方城市中的明珠via：王啸...</p>
+                        <div class="more">
+                            <a href="javascript:;">查看更多&gt;&gt;</a>
+                        </div>
+                    </li>
+                </ul>
+                <div class="page_cy_more wow fadeInUp animated" data-wow-duration="1s" data-wow-delay="1.4s" style="visibility: visible; animation-duration: 1s; animation-delay: 1.4s; animation-name: fadeInUp;">
+                    <a href="javascript:;">查看更多畅游攻略</a>
+                </div>
+                <div class="ihr"></div>
+            </div>
+        </div>
+        <div class="page_hd">
+            <div class="page_hd_bg">
+                <div class="iscr_tit wow fadeInUp animated" data-wow-duration="1s" data-wow-delay="0.5s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: fadeInUp;">
+                    <a href="javascript:;">
+                        <img src="images/tit04.png" width="100%" height="auto">
+                    </a>
+                </div>
+            </div>
+            <div class="page_bg_con">
+                <div class="page_hd_con">
+                    <div class="page_hd_l wow fadeInLeft animated" data-wow-duration="1s" data-wow-delay="0.7s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.7s; animation-name: fadeInLeft;">
+                        <a href="JavaScript:;" title="趵突泉迎春花灯会">
+                            <img src="images/20190212025146808.jpg" width="100%" height="auto">
+                        </a>
+                    </div>
+                    <ul class="page_hd_m">
+                        <li class="wow fadeInDown animated" data-wow-duration="0.5" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInDown;">
+                            <a href="javascript:;" title="明湖春节文化庙会">
+                                <img src="images/20190212025622785.jpg" width="100%" height="auto">
+                            </a>
+                        </li>
+                        <li class="wow fadeInDown animated" data-wow-duration="0.5" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInDown;">
+                            <a href="javascript:;" title="趵突泉金秋菊展">
+                                <img src="images/20190212024929855.jpg" width="100%" height="auto">
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="page_hd_r wow fadeInRight animated" data-wow-duration="0.5" data-wow-delay="0.7s" style="visibility: visible; animation-delay: 0.7s; animation-name: fadeInRight;">
+                        <ul class="page_hd_list">
+                            <li class="wow fadeInUp animated" data-wow-duration="0.5" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInUp;">
+                                <a href="javascript:;" title="明湖春节文化庙会">明湖春节文化庙会</a>
+                            </li>
+                            <li class="wow fadeInUp animated" data-wow-duration="0.5" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInUp;">
+                                <a href="javascript:;" title="趵突泉迎春花灯会">趵突泉迎春花灯会</a>
+                            </li>
+                            <li class="wow fadeInUp animated" data-wow-duration="0.5" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInUp;">
+                                <a href="javascript:;" title="龙舟赛">龙舟赛</a>
+                            </li>
+                            <li class="wow fadeInUp animated" data-wow-duration="0.5" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInUp;">
+                                <a href="javascript:;" title="趵突泉金秋菊展">趵突泉金秋菊展</a>
+                            </li>
+                            <li class="wow fadeInUp animated" data-wow-duration="0.5" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInUp;">
+                                <a href="javascript:;" title="曲山艺海">曲山艺海</a>
+                            </li>
+                            <li class="wow fadeInUp animated" data-wow-duration="0.5" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInUp;">
+                                <a href="javascript:;" title="民俗展演">民俗展演</a>
+                            </li>
+                            <li class="wow fadeInUp animated" data-wow-duration="0.5" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInUp;">
+                                <a href="javascript:;" title="书画展览">书画展览</a>
+                            </li>
+                            <li class="wow fadeInUp animated" data-wow-duration="0.5" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInUp;">
+                                <a href="javascript:;" title="荷花艺术节">荷花艺术节</a>
+                            </li>
+                        </ul>
+                        <div class="page_hd_more wow fadeInDown animated" data-wow-duration="0.5" data-wow-delay="1s" style="visibility: visible; animation-delay: 1s; animation-name: fadeInDown;">
+                            <a href="javascript:;">更多活动&gt;&gt;</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="ihr"></div>
+            </div>
+        </div>
+        <div class="page_wh">
+            <div class="wh_bg">
+                <div class="iscr_tit wow fadeInUp animated" data-wow-duration="1s" data-wow-delay="0.5s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: fadeInUp;">
+                    <a href="javascript:;">
+                        <img src="images/tit05.png" width="100%" height="auto">
+                    </a>
+                </div>
+            </div>
+            <div class="page_wh_con">
+                <div class="page_wh_fb">
+                    <ul class="page_wh_ul">
+                        <li class="wow fadeInUp animated" data-wow-duration="1s" data-wow-delay="1s" style="visibility: visible; animation-duration: 1s; animation-delay: 1s; animation-name: fadeInUp;">
+                            <div class="img">
+                                <div class="tit">
+                                    <a href="javascript:;" title="最敬业公务员曾巩和趵突泉的秘密">最敬业公务员曾巩和趵突泉的秘密</a>
+                                </div>
+                                <a href="javascript:;" title="最敬业公务员曾巩和趵突泉的秘密">
+                                    <img src="images/20190227052705691.jpg" width="100%" height="auto">
+                                </a>
+                            </div>
+                        </li>
+                        <li class="wow fadeInUp animated" data-wow-duration="1s" data-wow-delay="1s" style="visibility: visible; animation-duration: 1s; animation-delay: 1s; animation-name: fadeInUp;">
+                            <div class="img">
+                                <div class="tit">
+                                    <a href="javascript:;" title="碧筒饮：风雅饮酒的正确方式">碧筒饮：风雅饮酒的正确方式</a>
+                                </div>
+                                <a href="javascript:;" title="碧筒饮：风雅饮酒的正确方式">
+                                    <img src="images/20180803124308223.jpg" width="100%" height="auto">
+                                </a>
+                            </div>
+                        </li>
+                        <li class="wow fadeInUp animated" data-wow-duration="1s" data-wow-delay="1s" style="visibility: visible; animation-duration: 1s; animation-delay: 1s; animation-name: fadeInUp;">
+                            <div class="img">
+                                <div class="tit">
+                                    <a href="javascript:;" title="康熙三临趵突泉">康熙三临趵突泉</a>
+                                </div>
+                                <a href="javascript:;" title="康熙三临趵突泉">
+                                    <img src="images/20180803124241113.jpg" width="100%" height="auto">
+                                </a>
+                            </div>
+                        </li>
+                        <li class=" wow fadeInUp animated" data-wow-duration="1s" data-wow-delay="1s" style="visibility: visible; animation-duration: 1s; animation-delay: 1s; animation-name: fadeInUp;">
+                            <div class="img">
+                                <div class="tit">
+                                    <a href="javascript:;" title="鹊华桥头观烟雨">鹊华桥头观烟雨</a>
+                                </div>
+                                <a href="javascript:;" title="鹊华桥头观烟雨">
+                                    <img src="images/20180719011833324.jpg" width="100%" height="auto">
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="page_wh_l wow fadeInLeft animated" data-wow-duration="1s" data-wow-delay="1s" style="visibility: visible; animation-duration: 1s; animation-delay: 1s; animation-name: fadeInLeft;">
+                        <li class="wow fadeInDown animated" data-wow-duration="0.5" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInDown;">
+                            <a href="javascript:;" title="沧园 | 趵突泉的东南一角，有品不完的文化底蕴">
+                                <img src="images/20190409122311108.jpg" width="100%" height="auto">
+                            </a>
+                        </li>
+                        <div class="tit">
+                            <a href="javascript:;" title="沧园 | 趵突泉的东南一角，有品不完的文化底蕴">专题：沧园 | 趵突泉的东南一角，有品不完的文化底蕴</a>
+                        </div>
+                        <p>天下第一泉风景区碧水清波，花开肆意，游人如织，据统计清明假期累计接待游客66 56万人次。如果你这个假期走进了趵突泉景区，</p>
+                    </div>
+                </div>
+            </div>
+            <div class="ihr"></div>
+        </div>
+        <div class="page3">
+            <div class="page_zn_bg">
+                <div class="iscr_tit wow fadeInUp animated" data-wow-duration="1s" data-wow-delay="0.5s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: fadeInUp;">
+                    <a href="javascript:;">
+                        <img src="images/tit06.png" width="100%" height="auto">
+                    </a>
+                </div>
+            </div>
+            <div class="page_zn_con">
+                <ul class="page_zn_ul">
+                    <li class="wow fadeInUp animated" data-wow-duration="1s" data-wow-delay="0.7s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.7s; animation-name: fadeInUp;">
+                        <div class="tit">
+                            <div class="ab">
+                                <a href="javascript:;">
+                                    <img src="images/zn_tit01_h.png" width="100%" height="auto">
+                                </a>
+                            </div>
+                            <a href="javascript:;">
+                                <img src="images/zn_tit01.png" width="100%" height="auto">
+                            </a>
+                        </div>
+                        <div class="img">
+                            <a href="javascript:;">
+                                <img src="images/zn_01.png" width="100%" height="auto">
+                            </a>
+                        </div>
+                    </li>
+                    <li class="wow fadeInUp animated" data-wow-duration="1s" data-wow-delay="0.9s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.9s; animation-name: fadeInUp;">
+                        <div class="tit">
+                            <div class="ab">
+                                <a href="javascript:;">
+                                    <img src="images/zn_tit02_h.png" width="100%" height="auto">
+                                </a>
+                            </div>
+                            <a href="javascript:;">
+                                <img src="images/zn_tit02.png" width="100%" height="auto">
+                            </a>
+                        </div>
+                        <div class="img">
+                            <a href="javascript:;">
+                                <img src="images/zn_02.png" width="100%" height="auto">
+                            </a>
+                        </div>
+                    </li>
+                    <li class="wow fadeInUp animated" data-wow-duration="1s" data-wow-delay="1.1s" style="visibility: visible; animation-duration: 1s; animation-delay: 1.1s; animation-name: fadeInUp;">
+                        <div class="tit">
+                            <div class="ab">
+                                <a href="javascript:;">
+                                    <img src="images/zn_tit03_h.png" width="100%" height="auto">
+                                </a>
+                            </div>
+                            <a href="javascript:;">
+                                <img src="images/zn_tit03.png" width="100%" height="auto">
+                            </a>
+                        </div>
+                        <div class="img">
+                            <a href="javascript:;">
+                                <img src="images/zn_03.png" width="100%" height="auto">
+                            </a>
+                        </div>
+                    </li>
+                    <li class="wow fadeInUp animated" data-wow-duration="1s" data-wow-delay="1.3s" style="visibility: visible; animation-duration: 1s; animation-delay: 1.3s; animation-name: fadeInUp;">
+                        <div class="tit">
+                            <div class="ab">
+                                <a href="javascript:;">
+                                    <img src="images/zn_tit04_h.png" width="100%" height="auto">
+                                </a>
+                            </div>
+                            <a href="javascript:;">
+                                <img src="images/zn_tit04.png" width="100%" height="auto">
+                            </a>
+                        </div>
+                        <div class="img">
+                            <a href="javascript:;">
+                                <img src="images/zn_04.png" width="100%" height="auto">
+                            </a>
+                        </div>
+                    </li>
+                    <li class="wow fadeInUp animated" data-wow-duration="1s" data-wow-delay="1.5s" style="visibility: visible; animation-duration: 1s; animation-delay: 1.5s; animation-name: fadeInUp;">
+                        <div class="tit">
+                            <div class="ab">
+                                <a href="javascript:;">
+                                    <img src="images/zn_tit05_h.png" width="100%" height="auto">
+                                </a>
+                            </div>
+                            <a href="javascript:;">
+                                <img src="images/zn_tit05.png" width="100%" height="auto">
+                            </a>
+                        </div>
+                        <div class="img">
+                            <a href="javascript:;">
+                                <img src="images/zn_05.png" width="100%" height="auto">
+                            </a>
+                        </div>
+                    </li>
+                    <li class="wow fadeInUp animated" data-wow-duration="1s" data-wow-delay="1.7s" style="visibility: visible; animation-duration: 1s; animation-delay: 1.7s; animation-name: fadeInUp;">
+                        <div class="tit">
+                            <div class="ab">
+                                <a href="javascript:;">
+                                    <img src="images/zn_tit06_h.png" width="100%" height="auto">
+                                </a>
+                            </div>
+                            <a href="javascript:;">
+                                <img src="images/zn_tit06.png" width="100%" height="auto">
+                            </a>
+                        </div>
+                        <div class="img">
+                            <a href="javascript:;">
+                                <img src="images/zn_06.png" width="100%" height="auto">
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="ifoot_bg wow fadeInUp animated" data-wow-duration="1s" data-wow-delay="1s" style="visibility: visible; animation-duration: 1s; animation-delay: 1s; animation-name: fadeInUp;">
+                <div class="ifoot_con">
+                    <div class="ifoot_logo">
+                        <img src="images/foot_logo.png">
+                    </div>
+                    <div class="ifoot_text">趵突泉、五龙潭、护城河景区：<br>咨询电话：0531-86920680<br>投诉电话：0531-86920439&nbsp;0531-86912571 </div>
+                    <div class="ifoot_text">大明湖景区：<br>咨询电话：0531-86088900<br>投诉电话：0531-86088945&nbsp;0531-86088901</div>
+                    <div class="ifoot_wx">
+                        <img src="images/wx_01.png">
+                    </div>
+                    <div class="ifoot_wx">
+                        <img src="images/wx_02.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <ul class="m-sliderpage-nav">
+        <li class="active"></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+    <div class="m-arrow velocity-animating"></div>
+</body>
+</html>
